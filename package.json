@@ -1,0 +1,22 @@
+{
+  "name": "senso-webmonitor",
+  "version": "0.0.0",
+  "description": "Online web monitor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "confidence": "^3.0.0",
+    "glue": "^3.3.0",
+    "good": "^7.0.1",
+    "good-console": "^6.1.2",
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0",
+    "joi": "^8.4.1",
+    "lodash": "^4.13.1",
+    "lout": "^9.0.0",
+    "vision": "^4.1.0"
+  }
+}
