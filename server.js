@@ -15,7 +15,8 @@ Composer((err, server) => {
 
   // Start listening on given PORT (supplied by manifest)
   return server.start((err) => {
-
+    // Connect database
+    var mongoose = require('./server/code/mongoose');
     if (err) {
       throw err;
     }

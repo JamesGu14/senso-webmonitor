@@ -21,13 +21,11 @@ const config = {
   projectName: Pkg.name,
   version: Pkg.version,
   port: {
-    api: {
-      $filter: 'env',
-      dev: process.env.PORT,
-      stage: process.env.PORT,
-      test: 8000,
-      $default: 8000
-    }
+    api: 8000,
+    mongodb: 27017
+  },
+  mongodb: {
+    url: 'localhost'
   }
 };
 

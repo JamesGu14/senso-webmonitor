@@ -19,6 +19,15 @@ const criteria = {
  */
 const manifest = {
   $meta: 'This document contains server level configuration.',
+  server: {
+    connections: {
+      routes: {
+        cors: {
+          headers: ['Access-Control-Allow-Origin']
+        }
+      }
+    }
+  },
   connections: [{
     port: Config.get('/port/api'),
     labels: ['api']

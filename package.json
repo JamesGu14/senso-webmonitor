@@ -4,11 +4,12 @@
   "description": "Online web monitor",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
     "confidence": "^3.0.0",
+    "eslint": "^2.12.0",
     "glue": "^3.3.0",
     "good": "^7.0.1",
     "good-console": "^6.1.2",
@@ -17,6 +18,8 @@
     "joi": "^8.4.1",
     "lodash": "^4.13.1",
     "lout": "^9.0.0",
+    "mongoose": "^4.5.0",
+    "nodemon": "^1.9.2",
     "vision": "^4.1.0"
   }
 }
