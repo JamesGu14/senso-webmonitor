@@ -21,7 +21,7 @@ const config = {
   projectName: Pkg.name,
   version: Pkg.version,
   port: {
-    api: 8000,
+    api: 3001,
     mongodb: 27017
   },
   mongodb: {
